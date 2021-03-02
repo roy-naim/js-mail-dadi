@@ -1,8 +1,8 @@
-var mail = prompt("What's your mail?");
-console.log(mail);
+var emails = ["roy@mail.com", "elena@mail.com", "joe@mail.com"]
 
-var names = ["Roy", "Leon", "Tommaso", "David"]
-
-for (var i = 0; i < names.length; i++) {
-  console.log(names[i])
+var my_email = prompt("What's your mail?");
+for (var i = 0; i < emails.length; i++) {
+  if (my_email[i]) {
+    console.log(emails[i])
+  }
 }
